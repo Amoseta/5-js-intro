@@ -20,5 +20,29 @@ console.log('Kiek yra reiksmiu pinigineje:', pinigine.length);
 console.log('Kiek yra reiksmiu abeceleje:', abc.length);
 console.log('Kiek esu aplankes miestu:', aplankytiMiestai.length);
 
+// kaip suzinoti, koks teksto ilgis: tekstas.length
 
+const zodis = 'zodis';
+const zodisIlgis = zodis.length;
+console.log(`"${zodis}" ilgis yra ${zodisIlgis}.`);
 
+console.log('Labas rytas', 'Labas rytas'.length);
+
+// istraukti saraso reiksme
+const pirmasMiestas = aplankytiMiestai[0];
+console.log('Pirmas miestas', pirmasMiestas);
+
+const antrasMiestas = aplankytiMiestai[1];
+console.log('Antras miestas', antrasMiestas);
+
+const treciasMiestas = aplankytiMiestai[2];
+console.log('Trecias miestas', treciasMiestas);
+
+// istraukti teksto n-taji simboli
+const hi = 'Labas';
+const pirmaRaide = hi[0];
+console.log(pirmaRaide);
+console.log(hi[1]);
+console.log(hi[2]);
+console.log(hi[3]);
+console.log(hi[4]);
