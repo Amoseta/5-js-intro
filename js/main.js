@@ -97,8 +97,9 @@ console.log(justHi);
 
 /*
 teksto reiksme gali buti inicijuota:
-    viengubose kabutese;
-    dvigubose kabutese;
+    viengubose kabutese '';
+    dvigubose kabutese "";
+    back tick `;
 */
 // tekste naudojamos dvigubos kabutes
 const dvigubosTekste = 'Tekste naudojamos dvigubos (") kabutes.';
@@ -120,4 +121,43 @@ console.log(abiTekste12);
 
 const abiTekste22 = "Tekste naudojamos viengubos (\') ir dvigubos (\") kabutes.";
 console.log(abiTekste12);
+
+const imgSrc = './img/doggo.jpg';
+const h1 = 'Labas rytas!';
+const p = 'hdjksfhlkasjflksur';
+
+const html1 = '<main>\n\
+    <img src="'+ imgSrc + '">\n\
+    <div>\n\
+        <h1>'+ h1 + '</h1>\n\
+        <p>'+ p + '</p>\n\
+    </div>\n\
+</main>';
+console.log(html1);
+
+const html2 = "<main>\n\
+    <img src=\""+ imgSrc + "\">\n\
+    <div>\n\
+        <h1>"+ h1 + "</h1>\n\
+        <p>"+ p + "</p>\n\
+    </div>\n\
+</main>";
+console.log(html2);
+
+const beautifulHtml = `<main>
+    <img src="${imgSrc}">
+    <div>
+        <h1>'${h1}'</h1>
+        <p>${p}</p>
+    </div>
+</main>`;
+console.log(html1);
+
+console.log('----------------------------')
+
+const person = 'Johnny Boy';
+const cndy = 'lolly pop';
+
+const sentence = '${person}, do you want a ${candy}?';
+console.log(sentence);
 
