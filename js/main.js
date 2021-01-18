@@ -156,8 +156,8 @@ console.log(html1);
 console.log('----------------------------')
 
 const person = 'Johnny Boy';
-const cndy = 'lolly pop';
+const candy = 'lolly pop';
 
-const sentence = '${person}, do you want a ${candy}?';
+const sentence = `${person}, do you want a ${candy}?`;
 console.log(sentence);
 
