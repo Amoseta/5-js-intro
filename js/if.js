@@ -20,7 +20,7 @@ if () {} else  if () .... else if {}
 const s = 4;
 const b = 2;
 
-if (s != b) {
+if (s > b) {
     console.log('taip');
 } else {
     console.log('ne');
