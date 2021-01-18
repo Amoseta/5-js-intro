@@ -16,7 +16,7 @@ console.log(arDaigiaaukstis);
 
 const variklisIjungtas = false;
 
-const arJudam = variklisIjungtas === true ? 'vaziuojam" : 'stovim";
+const arJudam = variklisIjungtas === true ? 'vaziuojam' : 'stovim';
 console.log(arJudam);
 
 
